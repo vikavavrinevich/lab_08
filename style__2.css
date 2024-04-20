@@ -1,0 +1,119 @@
+*{  
+    margin: 0; 
+    padding: 0;     
+    border: 0; 
+    outline: 0;     
+    list-style: none; 
+    box-sizing: border-box; 
+    text-decoration: none; 
+    scroll-behavior: smooth; 
+}  
+     
+:focus,:active{outline: none;}  
+a:focus,a:active{outline: none;}  
+     
+nav,footer,header,aside{display: block;}  
+     
+:root{  
+    --boss: rgb(160, 160, 160);  
+    --colors: rgb(210, 198, 198);  
+}   
+     
+input,button,textarea{font-family:inherit;}  
+     
+input::-ms-clear{display: none;}  
+button{cursor: pointer;}  
+button::-moz-focus-inner {padding:0;border:0;}  
+a, a:visited{text-decoration: none;}  
+a:hover{text-decoration: none;}  
+ul li{list-style: none;}  
+img{vertical-align: top;}  
+     
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+.header {
+    background-color: rgb(48, 48, 48);
+    position: fixed;
+    width: 100%;
+    color: #ffffff;
+}
+.header__title {
+    text-align: center;
+    font-size: 50px;
+    margin: 30px ; 
+}
+.header__nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(27, 21, 21);
+    border-top: 1px solid #ffffff;
+    border-inline: 1px solid #fcf6f6;
+    margin-top: 20px; /* Відступ зверху */
+    
+    
+}
+button{
+    padding: 10px 50px;
+    border-radius: 10px; /* Задаємо радіус закруглення */
+    background-color: #8b8b8b; /* Задаємо колір фону */
+    color: #060303; /* Задаємо колір тексту */
+    border: none; /* Видаляємо рамку */
+    font-size: 20px;
+    padding: 10px 100px;
+    margin-top: 10px; /* Відступ зверху */
+    margin-bottom: 10px; /* Відступ знизу */
+}
+.main {
+display: flex;
+padding-top: 105px;
+
+justify-content: end;
+
+}
+.main__aside {
+    
+    width: 30%;
+    padding: 70px; /* Відступи всередині асайду */
+    position: fixed;
+    left: 0;
+
+   
+}
+.main__aside-title {
+    color:black;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px ;
+    
+}
+.main__aside-p {
+   
+        font-family: "Lobster", cursive;
+        overflow-x: hidden;
+        text-align: center;
+    }
+    
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 160px; 
+    background-color: rgb(126, 160, 99);
+    width: 70%;
+
+}
+.section__title {
+    color:black;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 80px ;
+}
+.section__p {
+
+    font-family: "Lobster", cursive;
+        overflow-x: hidden;
+        text-align: center;
+}
+footer{
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
